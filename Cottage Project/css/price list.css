@@ -1,0 +1,149 @@
+/* 
+
+Veronica Wade's Project Code Individual Project Submission
+Author: Veronica A. Wade
+Submission Date: July 29, 2017
+
+Key features of this CSS page includes:
+
+-background picture used for both the header and footer that spans the entire bar
+
+-navigation bar will change color when user hovers
+
+-pictures have a hover feature that will enlarge and upon double click the picture will open in a separate window; image is enlarged
+
+-code for images that are floating right have been included in the html file; code for images that are floating left are included in this css file 
+
+-red border was appled to all images - img 
+
+
+*/
+
+body {
+    width: 100%;
+    margin: auto;
+    background-color:#fdeacc;
+      }       
+
+h1 {
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   font size; 36pt;  
+   font-weight: bold; 
+   font-weight: italic;
+   background-color: #c1bfea;
+   line-height: 50px;
+   margin-bottom: auto;
+   margin-top: 3px;
+   background-image: url(../images/background.jpg);
+   background-size: cover;
+    } 
+
+header {
+    float: center;
+    width: auto;
+    height: 300px;
+    color: white;
+    font-weight: bold;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    }
+
+li a {
+    float: left; 
+    width: 310px;
+    color: blanchedalmond;
+    font-size: 17pt;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    height: auto;
+    
+     }
+
+li a:hover {
+    background-color: darkseagreen;
+    color: white;
+    } 
+
+#container {
+    clear: both;
+    height: auto;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkseagreen;
+    padding: 10px 10px 10px 10px;
+    border: dotted;
+    border-color: #c1bfea;
+    font-family:cursive;
+    list-style-position: inside;
+     }
+
+h2 {
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   font size; 16pt;
+    }
+
+h3 {
+   font-family: 'Roboto', sans-serif;
+   font size; 16pt;
+    }
+
+.house{
+    margin-left: 20px;
+    }
+
+img {
+    float: right;
+    padding: 8px;
+    border-color: rgb(177, 33, 33);
+    border-width: 2px;
+    border-style: solid;
+    margin-right: 15px;
+     }
+
+img:hover {
+    width: 600px;
+    height: 400px;
+    }
+
+table, th, td {
+    border: 1px solid rgb(177, 33, 33);
+    text-align: center;
+    }
+
+#footer {
+   clear: both;
+   background-color: #c1bfea;
+   line-height: 50px;
+   font-size: 9pt;
+   color: white;
+   font-weight: bold;
+   background-image: url(../images/background.jpg);
+   background-repeat: no-repeat;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
